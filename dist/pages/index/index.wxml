@@ -1,0 +1,16 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="intro">
+        <view class="list">
+            <view class="left-list">
+                <view class="imageDetail" wx:for="{{leftList}}" wx:for-item="item" wx:for-index="_anonIdx2">
+                    <image src="{{item.cover}}" mode="widthFix"></image><text class="detailName">{{item.name}}</text><text class="detailInfo">${{item.info.moneyString}}</text>
+                </view>
+            </view>
+            <view class="right-list">
+                <view class="imageDetail" wx:for="{{rightList}}" wx:for-item="item" wx:for-index="_anonIdx4">
+                    <image src="{{item.cover}}" mode="widthFix"></image><text class="detailName">{{item.name}}</text><text class="detailInfo">${{item.info.moneyString}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/index"
+  ],
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "color": "#AAAAAA",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "玩具",
+        "iconPath": "./assets/back.png",
+        "selectedIconPath": "./assets/back.png"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "text": "玩具",
+        "iconPath": "./assets/back.png",
+        "selectedIconPath": "./assets/back.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

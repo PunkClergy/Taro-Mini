@@ -1,0 +1,16 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="intro">
+        <view class="list">
+            <view class="left-list">
+                <view wx:for="{{leftList}}" wx:for-item="item" wx:for-index="_anonIdx2">
+                    <image src="{{item.cover}}" mode="widthFix"></image><text>111</text>
+                </view>
+            </view>
+            <view class="right-list">
+                <view wx:for="{{rightList}}" wx:for-item="item" wx:for-index="_anonIdx4">
+                    <image src="{{item.cover}}" mode="widthFix"></image><text>333</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

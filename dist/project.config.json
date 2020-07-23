@@ -1,0 +1,16 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "Mini",
+  "description": "Markov",
+  "appid": "wxde315e207ae878c3",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {}
+}

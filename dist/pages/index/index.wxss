@@ -1,0 +1,47 @@
+.intro {
+  text-align: center;
+}
+.list {
+  display: flex;
+  flex: 1;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+  padding-top: 8rpx;
+}
+.list image {
+  width: 100%;
+  margin-bottom: 10rpx;
+}
+.left-list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 359rpx;
+}
+.right-list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 359rpx;
+}
+.imageDetail {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10rpx;
+}
+.imageDetail image {
+  border-radius: 10rpx;
+}
+.detailName {
+  font-size: 26rpx;
+  color: #484848;
+}
+.detailInfo {
+  font-size: 24rpx;
+  color: #ff5a5a;
+  font-weight: bold;
+}
